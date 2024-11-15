@@ -57,5 +57,5 @@ if ($ssid -and $passwordFile) {
         Write-Host "Could not connect"
     }
 } else {
-    Write-Host "Usage: .\script.ps1 -ssid <SSID> -passwordFile <password_file>"
+    Write-Host "Usage: .\connectME.ps1 -ssid <SSID> -passwordFile <password_file>"
 }
